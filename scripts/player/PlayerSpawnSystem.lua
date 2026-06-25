@@ -1,7 +1,7 @@
 -- PlayerSpawnSystem.lua
 -- Sistema completo de spawn de jogadores
 -- Coloque este script em: StarterPlayer > StarterCharacterScripts
-
+-- este sistema e forma mais eficaz de spawn do jogador
 local character = script.Parent
 local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
 local humanoid = character:WaitForChild("Humanoid")
